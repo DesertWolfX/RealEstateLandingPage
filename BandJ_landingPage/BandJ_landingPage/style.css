@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+}
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
+.containter-fluid{background-color:#316360;}
+
+a{color:#316360;}
+.logosection{ font-size: 2em;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 a{font-family: 'Poppins', sans-serif;
+}
+.lead{font-family: 'Poppins', sans-serif;}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{ background-color:#316360; }
+#header {
+    padding: .5rem 0 0 0;
+    background-color: #316360;
+}
+.topcontactinfo{    
+    padding: 1rem 0 0 0;
+    color:#1d3b3a;
+    font-size:.95em;}
+.topcontactinfo a{    
+    color:#fff;}
+.jumbotron {
+    background: url("images/home.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+.brandsection{background:url("images/kitchen.jpg") no-repeat center fixed;}
+
+.btn-primary{background-color:#1d3b3a !important;
+               border-color: #316360  !important;}
+
+#main {
+    padding: 5rem 8rem;
+}
+
+#main-left {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding-top: 4rem;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#main-left h4 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#main-left p {
+    padding-top: 4rem;
+}
+
+#main-right {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 4rem;
+}
+
+#sub-main {
+    padding: 6rem 0 6rem 0;
+}
+
+#sub-main i {
+
+    font-size: 3rem;
+    color: #316360;
+}
+
+#sub-main p {
+    padding-top: 1rem;
+}
+
+#testimonials {
+    background-color:#1d3b3a;
+    padding: 3.5rem 0 3.5rem 0;
+}
+
+.testimonial-content {
+    padding: 5rem 0 0 0;
+    color:#fff;
+}
+
+.testimonial-content i {
+    background: #cc9900;
+    border-radius: 5%;
+    border: 3px solid black;
+    font-size: 3em;
+    color: white;
+}
+
+
+#footer {
+    padding: .5rem 0 .5rem 0;
+    background: #316360;
+}
+
+.h5testimonials{color:#fff;}
